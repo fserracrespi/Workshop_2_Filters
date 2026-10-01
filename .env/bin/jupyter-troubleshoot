@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/fserracrespi/Desktop/Paris Saclay/Signal Processing/Workshop_2_Filters/.env/bin/python" "$0" "$@"
+' '''
+import sys
+from jupyter_core.troubleshoot import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
